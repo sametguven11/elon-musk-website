@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: url(spacex.jpeg);
+    background-size: 100% 100% ;
+    background-attachment: fixed;
+    height: 100vh;
+    
+}
+
+.container .navbar{
+   width: 100%; 
+   height: 80px;
+   background: rgba(245, 239, 239, 0.4);
+}
+
+.navbar .logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px; 
+}
+
+.navbar .logo a{
+ text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #f3f3f3;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px; 
+}
+
+.navbar ul li{
+ list-style: none;
+ display: inline-block;
+ margin: 0 8px;
+ line-height: 80px;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Roboto;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: #ff6e00 ;
+    border-radius: 2px; 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 450px;
+    background: rgba(241, 238, 238, 0.1);
+    padding: 40px;
+    text-align: center;
+    margin:auto;
+    margin-top: 5%;
+    color: #f3f3f3;
+    font-family: sans-serif;
+}
+.box img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.box img:hover{
+    transform: scale(0.9);
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    padding-bottom: 0.5em;
+}
+.box h5{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding-bottom: 1em;
+}
+.box p{
+    text-align: justify;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.box li a{
+    color: white;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+    color: #b9b9b9;
+}
+
+.logo img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    transition: 0.5s;
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+    top: 0px;   
+}
+
+.teslax {
+    text-align: center;
+    color: #f3f3f3;
+    margin: auto;
+    font-family: sans-serif;
+}
+.teslax img {
+ width: 1000px;
+ height: 500px;
+}
+.teslax h1{
+        font-size: 40px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        padding-bottom: 0.5em;
+}
+
+.teslax p{
+    text-align: center;
+    padding-bottom: 0.5em;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding: 20px;
+}
+
+.teslas {
+    text-align: center;
+    color: #f3f3f3;
+    margin: auto;
+    font-family: sans-serif;
+}
+.teslas img {
+ width: 1000px;
+ height: 500px;
+}
+.teslas h1{
+        font-size: 40px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        padding-bottom: 0.5em;
+}
+
+.teslas p{
+    text-align: center;
+    padding-bottom: 0.5em;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding: 20px;
+}
+
+.teslay {
+    text-align: center;
+    color: #f3f3f3;
+    margin: auto;
+    font-family: sans-serif;
+}
+.teslay img {
+ width: 1000px;
+ height: 500px;
+}
+.teslay h1{
+        font-size: 40px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        padding-bottom: 0.5em;
+}
+
+.teslay p{
+    text-align: center;
+    padding-bottom: 0.5em;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding: 20px;
+}
+
+.tesla3 {
+    text-align: center;
+    color: #f3f3f3;
+    margin: auto;
+    font-family: sans-serif;
+}
+.tesla3 img {
+ width: 1000px;
+ height: 500px;
+}
+.tesla3 h1{
+        font-size: 40px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        padding-bottom: 0.5em;
+}
+
+.tesla3 p{
+    text-align: center;
+    padding-bottom: 0.5em;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding: 20px;
+}
+
+.spacex {
+    text-align: center;
+    color: #f3f3f3;
+    margin: auto;
+    font-family: sans-serif;
+}
+.spacex img {
+ width: 1000px;
+ height: 500px;
+}
+.spacex h1{
+        font-size: 40px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        padding-bottom: 0.5em;
+}
+
+.spacex p{
+    text-align: center;
+    padding-bottom: 0.5em;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding: 20px;
+}
+
+.kripto {
+    text-align: center;
+    color: #f3f3f3;
+    margin: auto;
+    font-family: sans-serif;
+}
+.kripto img {
+ width: 1000px;
+ height: 500px;
+}
+.kripto h1{
+        font-size: 40px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        padding-bottom: 0.5em;
+}
+
+.kripto p{
+    text-align: center;
+    padding-bottom: 0.5em;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding: 20px;
+}
+
+.starlink {
+    text-align: center;
+    color: #f3f3f3;
+    margin: auto;
+    font-family: sans-serif;
+}
+.starlink img {
+ width: 1000px;
+ height: 500px;
+}
+.starlink h1{
+        font-size: 40px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        padding-bottom: 0.5em;
+}
+
+.starlink p{
+    text-align: center;
+    padding-bottom: 0.5em;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding: 20px;
+}
+
+.starlink2 {
+    text-align: center;
+    color: #f3f3f3;
+    margin: auto;
+    font-family: sans-serif;
+}
+.starlink2 img {
+ width: 1000px;
+ height: 500px;
+}
+.starlink2 h1{
+        font-size: 40px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        padding-bottom: 0.5em;
+}
+
+.starlink2 p{
+    text-align: center;
+    padding-bottom: 0.5em;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding: 20px;
+}
+
+.starlink3 {
+    text-align: center;
+    color: #f3f3f3;
+    margin: auto;
+    font-family: sans-serif;
+}
+.starlink3 img {
+ width: 1000px;
+ height: 500px;
+}
+.starlink3 h1{
+        font-size: 40px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        padding-bottom: 0.5em;
+}
+
+.starlink3 p{
+    text-align: center;
+    padding-bottom: 0.5em;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding: 20px;
+}
+
+.starlink4 {
+    text-align: center;
+    color: #f3f3f3;
+    margin: auto;
+    font-family: sans-serif;
+}
+.starlink4 img {
+ width: 1000px;
+ height: 500px;
+}
+.starlink4 h1{
+        font-size: 40px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        padding-bottom: 0.5em;
+}
+
+.starlink4 p{
+    text-align: center;
+    padding-bottom: 0.5em;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding: 20px;
+}
+
+.containert{
+    background: url(spacex.jpeg);
+    background-size: 100% 100% ;
+    background-attachment: fixed;
+}
+
+.containert .navbar{
+   width: 100%; 
+   height: 80px;
+   background: rgba(245, 239, 239, 0.4);
+}
+
+.containerx{
+    background: url(spacex.jpeg);
+    background-size: 100% 100% ;
+    background-attachment: fixed;
+}
+
+.containerx .navbar{
+   width: 100%; 
+   height: 80px;
+   background: rgba(245, 239, 239, 0.4);
+}
+
+.containerk{
+    background: url(spacex.jpeg);
+    background-size: 100% 100% ;
+    background-attachment: fixed;
+    
+}
+
+.containerk .navbar{
+   width: 100%; 
+   height: 80px;
+   background: rgba(245, 239, 239, 0.4);
+}
+
+.containerk{
+    background: url(spacex.jpeg);
+    background-size: 100% 100% ;
+    background-attachment: fixed;
+}
+
+.containerk .navbar{
+   width: 100%; 
+   height: 80px;
+   background: rgba(245, 239, 239, 0.4);
+}
+
+.containerstar{
+    background: url(spacex.jpeg);
+    background-size: 100% 100% ;
+    background-attachment: fixed;
+    
+}
+
+.containerstar .navbar{
+   width: 100%; 
+   height: 80px;
+   background: rgba(245, 239, 239, 0.4);
+}
+
+.containerstar{
+    background: url(spacex.jpeg);
+    background-size: 100% 100% ;
+    background-attachment: fixed;
+}
+
+.containerstar .navbar{
+   width: 100%; 
+   height: 80px;
+   background: rgba(245, 239, 239, 0.4);
+}
+
+
